@@ -197,7 +197,7 @@ h3 {
   grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
   align-items: center;
   gap: clamp(2rem, 5vw, 5rem);
-  padding-block: clamp(3.5rem, 8vw, 7rem) 3.2rem;
+  padding-block: clamp(3.5rem, 8vw, 7rem) 1.5rem;
 }
 
 .hero-copy {
@@ -238,6 +238,44 @@ h3 {
   display: flex;
   flex-wrap: wrap;
   gap: 0.8rem 1.5rem;
+}
+
+.home-news {
+  margin-bottom: clamp(3.5rem, 8vw, 6.5rem);
+  padding: 1.2rem 1.35rem;
+  border: 1px solid var(--line);
+  border-left: 3px solid var(--teal);
+  background: var(--sage);
+}
+
+.home-news h2 {
+  margin-bottom: 0.55rem;
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 1rem;
+  letter-spacing: 0;
+}
+
+.home-news ul {
+  display: grid;
+  gap: 0.55rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.home-news li + li {
+  padding-top: 0.55rem;
+  border-top: 1px solid rgb(37 53 58 / 14%);
+}
+
+.home-news a {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  text-decoration: none;
+}
+
+.home-news a:hover {
+  text-decoration: underline;
 }
 
 .text-link {
