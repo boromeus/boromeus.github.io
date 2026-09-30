@@ -197,7 +197,7 @@ h3 {
   grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
   align-items: center;
   gap: clamp(2rem, 5vw, 5rem);
-  padding-block: clamp(3.5rem, 8vw, 7rem) 1.5rem;
+  padding-block: clamp(2rem, 5vw, 4rem) 1.5rem;
 }
 
 .hero-copy {
@@ -238,6 +238,18 @@ h3 {
   display: flex;
   flex-wrap: wrap;
   gap: 0.8rem 1.5rem;
+}
+
+.home-nav {
+  margin-bottom: 1.1rem;
+}
+
+.home-nav .text-link {
+  font-size: 1.2rem;
+}
+
+.home-nav a:last-child {
+  margin-left: auto;
 }
 
 .home-news {
@@ -723,7 +735,7 @@ h3 {
   }
 
   .home-hero {
-    padding-top: 3rem;
+    padding-top: 2rem;
   }
 
   .home-note,
